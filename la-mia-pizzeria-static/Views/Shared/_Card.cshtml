@@ -1,8 +1,11 @@
-﻿<div class="card" style="width: 18rem;">
-    <img src=@Model.Img class="card-img-top" alt="...">
-    <div class="card-body">
-        <h5 class="card-title">@Model.Name</h5>
-        <p class="card-text">@Model.Description</p>
-        <p>@Model.Price €</p>
+﻿
+<div class="col">
+    <div class="card h-100" style="width: 18rem;">
+        <img src=@Model.Img class="card-img-top img-fluid" alt="..." style="height: 238px;">
+        <div class="card-body">
+            <h5 class="card-title">@Model.Name</h5>
+            <p class="card-text">@Model.Description</p>
+            <p class="fw-bold">@Model.Price €</p>
+        </div>
     </div>
 </div>
